@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"autho-go-microservice/internal/database"
+
 	_ "github.com/joho/godotenv/autoload"
 )
 

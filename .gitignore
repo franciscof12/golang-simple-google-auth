@@ -24,3 +24,8 @@ tmp/
 
 # .env file
 .env
+
+# Log files
+*.log
+
+package-lock.json
