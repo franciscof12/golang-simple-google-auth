@@ -17,8 +17,8 @@ func (s *Server) RegisterRoutes() http.Handler {
 
 	r.Get("/", s.HelloWorldHandler)
 	r.Get("/health", s.healthHandler)
-	r.Get("/auth/{provider}/callback", s.GetAuthCallback)
-	r.Get("/auth/{provider}", s.GetAuth)
+	r.Get("/auth/callback", s.GetAuthCallback)
+	r.Get("/auth", s.GetAuth)
 	r.Get("/logout", s.Logout)
 
 	return r
